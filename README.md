@@ -51,19 +51,6 @@ Pkg.add(["Statistics", "Distributions", "StatsBase", "LinearAlgebra",
          "Optim", "LaTeXStrings", "BAT", "DensityInterface", "IntervalSets"])
 ```
 
-## Running
-
-From the repo root:
-
-```bash
-julia analysis/run_br_fit.jl
-julia analysis/pull_test.jl
-julia analysis/spectrum_table_and_background_check.jl
-julia analysis/correlation_heatmaps.jl
-```
-
-`run_br_fit.jl` exposes its configuration (fit range, prior type, EM
-iterations, ridge stabilization) as constants at the top of the file.
 
 ## Notes
 
