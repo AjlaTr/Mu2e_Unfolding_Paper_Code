@@ -38,7 +38,6 @@ analysis/
   correlation_heatmaps.jl              unfolded-spectrum and fit-parameter correlations
 data/
   1992_Al_full.csv       measured 1992 Al RMC spectrum
-figures/                 output plots (generated)
 ```
 
 ## Requirements
